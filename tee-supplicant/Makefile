@@ -1,6 +1,6 @@
 include ../flags.mk
 
-OUT_DIR		?= ${CURDIR}/../$(O)/tee-supplicant
+OUT_DIR		?= $(O)/tee-supplicant
 
 .PHONY: all tee-supplicant clean
 
